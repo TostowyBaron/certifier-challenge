@@ -4,13 +4,13 @@ import Image from "next/image";
 import dividerImg from "@/public/images/divider.svg";
 import { cn } from "@/lib/utils";
 
-interface Props extends ComponentPropsWithoutRef<"div"> {
+interface Props extends ComponentPropsWithoutRef<"section"> {
   className?: string;
 }
 
 const Trust = ({ className, ...props }: Props) => {
   return (
-    <div
+    <section
       className={cn(
         "w-full large:pb-20 pb-10 flex items-center justify-center",
         className
@@ -41,7 +41,7 @@ const Trust = ({ className, ...props }: Props) => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

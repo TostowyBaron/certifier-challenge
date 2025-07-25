@@ -12,7 +12,7 @@ The project was built using **Next.js 14** (with App Router), **TypeScript**, an
 
 You can view and test the live version of the application deployed on Vercel:
 
-**[Insert your Vercel/Netlify deployment link here]**
+**[https://certifier-challenge.vercel.app/](https://certifier-challenge.vercel.app/)**
 
 Below is a screenshot of the final page on a desktop view:
 
