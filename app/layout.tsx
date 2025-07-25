@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 
 import "./globals.css";
+import Navbar from "@/components/sections/Navbar";
 
 const tt_firs = localFont({
   src: [
@@ -45,6 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${tt_firs.variable} ${tt_firs.className} antialiased`}>
+        <Navbar />
         {children}
       </body>
     </html>
