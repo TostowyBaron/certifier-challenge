@@ -12,7 +12,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         primary:
-          "rounded-[10px] text-white hover:translate-y-[-2px] bg-[#1565D8] hover:bg-blue-600 text-[18px] leading-[28px] medium:text-[20px] xl:leading-[28px] w-full xl:w-auto xl:whitespace-nowrap flex items-center justify-center  px-[20px] py-[10px] ",
+          "rounded-[8px] text-white hover:translate-y-[-2px] bg-[#1565D8] hover:bg-blue-600 text-[18px] leading-[28px] medium:text-[20px] xl:leading-[28px] w-full xl:w-auto xl:whitespace-nowrap flex items-center justify-center  px-[20px] py-[10px] ",
         secondary:
           "text-[#1565D8] hover:text-[#1565D8]/80 flex justify-center items-center text-[20px] font-medium leading-[28px]",
       },
